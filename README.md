@@ -6,8 +6,10 @@
 
 ## Summary
 
-Use Javascript and D3 techniques created a dynamic scatter plot, to show different views of the data
-by clicking the desired X Axis or Y Axis. Run a local server using "python -m http.server", to view the javascript interactions.
+Use Javascript and D3 techniques created a dynamic scatter plot, on a single HTML page on a local server 
+(by running "python -m http.server").  Interact with the scatter plot by clicking the desired X Axis or Y Axis label. 
+
+JavaScript packages used: (JQuery, Bootstrap, D3, D3-tip, Popper) to create a RESTful API app with two routes. Each time a user clicks the "Scrape New Data" button, images, news articles and twitter info are refreshed.
 
 The scatter plot shows correlations between poverty, age, income and various factors that may increase health risks (lack of healthcare, smoking, and obesity). The data used was provided by the US Census Bureau through the 2014 American Community Survey.
 
